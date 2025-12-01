@@ -1,0 +1,30 @@
+.todo__form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  column-gap: 16px;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+
+  height: var(--input-height);
+  width: 55px;
+
+  padding: 12px;
+
+  background-color: var(--color-dark-2);
+  color: var(--color-gray-1);
+
+  border: 1px solid var(--color-dark-2);
+  border-radius: var(--border-radius);
+
+  &:hover {
+    background-color: transparent;
+    color: var(--color-dark-2);
+  }
+}
+

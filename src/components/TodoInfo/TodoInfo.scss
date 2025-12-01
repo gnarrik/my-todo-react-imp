@@ -1,0 +1,17 @@
+.todo__info {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+
+  font-weight: 600;
+}
+
+.todo__delete-all-button {
+  background-color: var(--color-white);
+  border: none;
+
+  &:hover {
+    text-decoration-line: underline;
+  }
+}
